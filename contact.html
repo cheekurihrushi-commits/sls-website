@@ -24,6 +24,7 @@
       <a href="academics.html">Academics</a>
       <a href="life-at-sls.html">Life at SLS</a>
       <a href="leadership.html">Leadership</a>
+      <a href="achievers.html">Achievers</a>
       <a href="admissions.html">Admissions</a>
       <a href="gallery.html">Stories</a>
       <a href="contact.html" class="active">Contact</a>
@@ -33,40 +34,86 @@
 
 <div class="page-hero">
   <h1>Come Experience SLS.</h1>
-  <p>A website can introduce our school. A campus visit lets you experience it.</p>
+  <p style="max-width:560px;">A website can introduce our school. A visit lets you experience it. Choosing the right school often begins with a conversation.</p>
 </div>
 
 <section>
-  <div class="wrap" style="display:grid; grid-template-columns: 1fr 1fr; gap:48px;">
-    <div>
-      <h2>Get in touch</h2>
-      <div class="card" style="margin-bottom:16px;">
-        <h4 style="font-family:'IBM Plex Sans'; text-transform:uppercase; font-size:0.8rem; color:var(--muted); margin-bottom:6px;">Address</h4>
-        <p style="margin:0;">SLS Scholars School<br>Hanuman Nagar, Near Eenadu Office<br>Suryapet, Telangana, India</p>
+  <div class="wrap">
+    <div class="grid grid-2">
+      <div>
+        <span class="eyebrow">Visit Our Campus</span>
+        <h2 style="margin-bottom:10px;">SLS Scholars School</h2>
+        <p style="color:var(--muted); margin-bottom:16px;">Hanuman Nagar, Near Eenadu Office<br>Suryapet, Telangana, India</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=SLS+Scholars+School+Hanuman+Nagar+Near+Eenadu+Office+Suryapet" target="_blank" rel="noopener" class="btn btn-outline">Get Directions →</a>
       </div>
-      <div class="card" style="margin-bottom:16px;">
-        <h4 style="font-family:'IBM Plex Sans'; text-transform:uppercase; font-size:0.8rem; color:var(--muted); margin-bottom:6px;">Phone</h4>
-        <p style="margin:0;">9848638999, 7989598191</p>
-      </div>
-      <div class="card">
-        <h4 style="font-family:'IBM Plex Sans'; text-transform:uppercase; font-size:0.8rem; color:var(--muted); margin-bottom:6px;">Office Hours</h4>
-        <p style="margin:0;">Monday – Saturday, 8:00 AM – 4:00 PM</p>
+      <div class="maps-placeholder">
+        <div style="font-size:32px; margin-bottom:8px;">📍</div>
+        <div style="font-weight:600;">Google Maps</div>
+        <div style="font-size:0.8rem; margin-top:4px;">Embed your live map here once you have an embed code from Google Maps.</div>
       </div>
     </div>
-    <div>
-      <h2>Send an enquiry</h2>
-      <form class="contact-form" id="enquiryForm">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" required placeholder="Full name">
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" required placeholder="Your contact number">
-        <label for="cls">Class of Interest</label>
-        <input type="text" id="cls" placeholder="e.g. Class VI">
-        <label for="message">Message</label>
-        <textarea id="message" rows="4" placeholder="Tell us a bit about your enquiry"></textarea>
-        <button type="submit" class="btn btn-primary" style="width:100%;">Send Enquiry</button>
-      </form>
-      <p style="font-size:0.8rem; color:var(--muted); margin-top:10px;">This opens your email app with the enquiry pre-filled — swap in a proper form service once your school email is set up.</p>
+  </div>
+</section>
+
+<section style="background:#fff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap-narrow">
+    <span class="eyebrow" style="text-align:center; display:block;">Talk to Us</span>
+    <h2 style="text-align:center;">Admissions &amp; General Enquiries</h2>
+    <div class="grid grid-4" style="margin-top:20px;">
+      <div class="card" style="text-align:center;"><h4 style="text-transform:uppercase; font-size:0.75rem; color:var(--muted); margin-bottom:6px;">Call</h4><a href="tel:+919848638999" style="font-weight:600;">9848638999</a></div>
+      <div class="card" style="text-align:center;"><h4 style="text-transform:uppercase; font-size:0.75rem; color:var(--muted); margin-bottom:6px;">WhatsApp</h4><a href="tel:+919848638999" style="font-weight:600;">9848638999</a></div>
+      <div class="card" style="text-align:center;"><h4 style="text-transform:uppercase; font-size:0.75rem; color:var(--muted); margin-bottom:6px;">Email</h4><a href="mailto:info@slsscholarsschool.com" style="font-weight:600; font-size:0.85rem;">info@slsscholarsschool.com</a></div>
+      <div class="card" style="text-align:center;"><h4 style="text-transform:uppercase; font-size:0.75rem; color:var(--muted); margin-bottom:6px;">Office Hours</h4><p style="margin:0; font-weight:600; font-size:0.85rem;">Mon–Sat, 8 AM–4 PM</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap-narrow">
+    <span class="eyebrow" style="text-align:center; display:block;">Send Us an Enquiry</span>
+    <h2 style="text-align:center;">We'll Help You With the Next Step.</h2>
+    <form class="contact-form" id="enquiryForm" style="max-width:520px; margin:24px auto 0;">
+      <label for="name">Parent / Visitor Name *</label>
+      <input type="text" id="name" required>
+      <label for="phone">Mobile Number *</label>
+      <input type="tel" id="phone" required>
+      <label for="email">Email</label>
+      <input type="email" id="email">
+      <label for="enquiryType">I'm Enquiring About *</label>
+      <select id="enquiryType" required style="width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:8px; font-family:inherit; font-size:0.95rem; margin-bottom:14px;">
+        <option value="">Select One</option>
+        <option>Admissions</option>
+        <option>Academics</option>
+        <option>Campus Visit</option>
+        <option>Transport</option>
+        <option>Fees</option>
+        <option>General Enquiry</option>
+        <option>Other</option>
+      </select>
+      <label for="cls">Admission Seeking for (if applicable)</label>
+      <select id="cls" style="width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:8px; font-family:inherit; font-size:0.95rem; margin-bottom:14px;">
+        <option value="">Select Class</option>
+        <option>Nursery</option><option>LKG</option><option>UKG</option>
+        <option>Class I</option><option>Class II</option><option>Class III</option><option>Class IV</option><option>Class V</option>
+        <option>Class VI</option><option>Class VII</option><option>Class VIII</option><option>Class IX</option><option>Class X</option>
+      </select>
+      <label for="message">Message</label>
+      <textarea id="message" rows="4"></textarea>
+      <button type="submit" class="btn btn-primary" style="width:100%;">Send Enquiry</button>
+    </form>
+    <p style="text-align:center; color:var(--muted); font-size:0.8rem; margin-top:10px;">This opens your email app with the enquiry pre-filled — swap in a proper form service once your school email is fully set up.</p>
+  </div>
+</section>
+
+<section style="background:var(--navy); color:#fff; text-align:center;">
+  <div class="wrap-narrow">
+    <span class="eyebrow" style="color:#F5A25D;">Planning an Admission?</span>
+    <h2 style="color:#fff;">Your Child's SLS Journey Can Start With a Visit.</h2>
+    <p style="color:rgba(255,255,255,0.85);">Come meet our team, explore the campus and understand what life at SLS looks like.</p>
+    <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+      <a href="admissions.html#admissionForm" class="btn btn-primary">Schedule a Campus Visit</a>
+      <a href="tel:+919848638999" class="btn btn-outline" style="border-color:#fff; color:#fff;">WhatsApp Admissions</a>
+      <a href="admissions.html" class="btn btn-outline" style="border-color:#fff; color:#fff;">Admission Enquiry</a>
     </div>
   </div>
 </section>
@@ -78,14 +125,14 @@
         <img src="images/crest.png" alt="crest" style="width:38px;height:38px;">
         <div class="brand-text"><div class="school-name" style="color:#fff;">SLS Scholars School</div></div>
       </div>
-      <p style="color:rgba(255,255,255,0.7); font-size:0.9rem; max-width:320px;">Suryapet, Telangana. Nursery through Class X, with IIT foundation for senior grades.</p>
+      <p style="color:rgba(255,255,255,0.7); font-size:0.9rem; max-width:320px;">Suryapet, Telangana. 25 years of Learning, Leadership &amp; Legacy — Nursery through Class X, with IIT Foundation for senior grades.</p>
     </div>
     <div>
       <h4>Quick Links</h4>
       <a href="about.html">About</a>
       <a href="academics.html">Academics</a>
+      <a href="life-at-sls.html">Life at SLS</a>
       <a href="admissions.html">Admissions</a>
-      <a href="gallery.html">Gallery</a>
     </div>
     <div>
       <h4>Contact</h4>
@@ -102,10 +149,12 @@ document.getElementById('enquiryForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const name = document.getElementById('name').value;
   const phone = document.getElementById('phone').value;
+  const email = document.getElementById('email').value;
+  const enquiryType = document.getElementById('enquiryType').value;
   const cls = document.getElementById('cls').value;
   const message = document.getElementById('message').value;
-  const body = `Name: ${name}%0APhone: ${phone}%0AClass of Interest: ${cls}%0A%0AMessage:%0A${message}`;
-  window.location.href = `mailto:info@slsscholarsschool.com?subject=Admission Enquiry&body=${body}`;
+  const body = `Name: ${name}%0APhone: ${phone}%0AEmail: ${email}%0AEnquiring About: ${enquiryType}%0AAdmission Seeking For: ${cls}%0A%0AMessage:%0A${message}`;
+  window.location.href = `mailto:info@slsscholarsschool.com?subject=Enquiry — ${enquiryType}&body=${body}`;
 });
 </script>
 
