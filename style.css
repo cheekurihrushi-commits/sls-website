@@ -210,3 +210,49 @@ table.fee-table tr:nth-child(even) td { background: #FBFAF7; }
   margin-bottom: 14px;
 }
 .contact-form label { font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 6px; }
+
+/* Jubilee + rebrand additions */
+.jubilee-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: linear-gradient(135deg, #1C5884, #123A57);
+  color: #D4AF37; border: 1px solid #D4AF37;
+  padding: 8px 18px; border-radius: 999px; font-weight: 700; font-size: 0.85rem;
+  letter-spacing: 0.04em;
+}
+.jubilee-section {
+  background: var(--navy); color: #fff; padding: 64px 24px; text-align: center;
+}
+.jubilee-section h2 { color: #D4AF37; }
+.jubilee-section p { color: rgba(255,255,255,0.85); max-width: 640px; margin: 0 auto 20px; }
+.jubilee-years { font-family: 'Fraunces', serif; font-size: 2.6rem; font-weight: 700; color: #D4AF37; margin-bottom: 6px; }
+
+.house-tile { border-radius: 16px; overflow: hidden; text-align: center; color: #fff; padding: 32px 20px; }
+.house-tile .house-value { font-size: 0.85rem; opacity: 0.9; margin-bottom: 10px; }
+.house-tile .house-motto { font-family: 'Fraunces', serif; font-style: italic; font-size: 1.05rem; }
+
+.election-flow { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 24px 0; }
+.election-flow .step { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 12px 18px; font-size: 0.85rem; font-weight: 600; color: var(--navy); }
+.election-flow .arrow { color: var(--orange); font-size: 1.1rem; }
+
+.life-tile {
+  position: relative; border-radius: 14px; overflow: hidden; aspect-ratio: 4/3;
+  display: flex; align-items: flex-end; padding: 16px;
+  background: linear-gradient(160deg, var(--navy), #2a6a94);
+  color: #fff;
+}
+.life-tile .life-icon { font-size: 28px; margin-bottom: 6px; }
+.life-tile .life-label { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1rem; }
+
+.timeline { border-left: 3px solid var(--orange); padding-left: 24px; margin-left: 8px; }
+.timeline-item { margin-bottom: 28px; position: relative; }
+.timeline-item::before {
+  content: ""; position: absolute; left: -31px; top: 4px;
+  width: 14px; height: 14px; border-radius: 50%; background: var(--orange); border: 3px solid #fff;
+}
+.timeline-item .year { font-family: 'Fraunces', serif; font-weight: 700; color: var(--navy); font-size: 1.15rem; }
+
+.step-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%; background: var(--navy); color: #fff;
+  font-weight: 700; font-size: 0.85rem; margin-bottom: 10px;
+}
