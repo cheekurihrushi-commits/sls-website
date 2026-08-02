@@ -8,6 +8,15 @@
 </head>
 <body>
 
+<div class="utility-strip">
+  <a href="tel:+919848638999">📞 9848638999</a>
+  <span class="sep">|</span>
+  <a href="tel:+919848638999">💬 WhatsApp</a>
+  <span class="sep">|</span>
+  <a href="https://www.google.com/maps/search/?api=1&query=SLS+Scholars+School+Hanuman+Nagar+Near+Eenadu+Office+Suryapet" target="_blank" rel="noopener">📍 Directions</a>
+  <span class="sep">|</span>
+  <span class="admissions-tag">Admissions Open 2026–27</span>
+</div>
 <div class="house-stripe"><span class="s1"></span><span class="s2"></span><span class="s3"></span><span class="s4"></span></div>
 <header class="site-header">
   <div class="nav-wrap">
@@ -18,16 +27,54 @@
         <div class="school-tag">25 Years of Learning. Leadership. Legacy.</div>
       </div>
     </a>
+    <button class="hamburger-btn" onclick="document.querySelector('.main-nav').classList.add('open')" aria-label="Open menu">☰</button>
     <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="academics.html">Academics</a>
-      <a href="life-at-sls.html">Life at SLS</a>
-      <a href="leadership.html" class="active">Leadership</a>
-      <a href="achievers.html">Achievers</a>
-      <a href="admissions.html">Admissions</a>
-      <a href="gallery.html">Stories</a>
-      <a href="contact.html">Contact</a>
+      <button class="nav-close-btn" onclick="document.querySelector('.main-nav').classList.remove('open')" aria-label="Close menu">✕</button>
+      <a href="index.html" class="no-caret">Home</a>
+      <div class="nav-item">
+        <a href="about.html">About</a>
+        <div class="nav-dropdown">
+          <a href="about.html#our-story">Our Story</a>
+          <a href="about.html#founder">Founder</a>
+          <a href="about.html#principal-message">Principal's Message</a>
+          <a href="about.html#vision-mission">Vision &amp; Mission</a>
+          <a href="about.html#four-houses">Four Houses</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="academics.html">Academics</a>
+        <div class="nav-dropdown">
+          <a href="academics.html#academic-journey">Academic Journey</a>
+          <a href="academics.html#early-years">Early Years</a>
+          <a href="academics.html#primary">Primary</a>
+          <a href="academics.html#middle-school">Middle School</a>
+          <a href="academics.html#secondary">Secondary</a>
+          <a href="academics.html#iit-foundation">IIT Foundation</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="life-at-sls.html" class="active">Student Life</a>
+        <div class="nav-dropdown">
+          <a href="life-at-sls.html">Life at SLS</a>
+          <a href="leadership.html">Student Leadership</a>
+          <a href="life-at-sls.html#houses">Houses</a>
+          <a href="life-at-sls.html#sports">Sports</a>
+          <a href="life-at-sls.html#clubs">Clubs</a>
+          <a href="life-at-sls.html#competitions">Competitions</a>
+          <a href="gallery.html">Stories &amp; Events</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="achievers.html">Achievers</a>
+        <div class="nav-dropdown">
+          <a href="achievers.html#academic-achievers">Academic Achievers</a>
+          <a href="achievers.html#student-achievements">Student Achievements</a>
+          <a href="about.html#silver-jubilee">SLS @ 25</a>
+        </div>
+      </div>
+      <a href="admissions.html" class="no-caret">Admissions</a>
+      <a href="contact.html" class="no-caret">Contact</a>
+      <a href="admissions.html#admissionForm" class="enquire-btn-nav no-caret">Enquire Now</a>
     </nav>
   </div>
 </header>
@@ -255,23 +302,50 @@
         <img src="images/crest.png" alt="crest" style="width:38px;height:38px;">
         <div class="brand-text"><div class="school-name" style="color:#fff;">SLS Scholars School</div></div>
       </div>
-      <p style="color:rgba(255,255,255,0.7); font-size:0.9rem; max-width:320px;">Suryapet, Telangana. 25 years of Learning, Leadership &amp; Legacy — Nursery through Class X, with IIT Foundation for senior grades.</p>
+      <p style="color:rgba(255,255,255,0.7); font-size:0.88rem; max-width:280px;">Celebrating 25 Years of Learning, Leadership &amp; Legacy. Since 2001, SLS Scholars School has been nurturing confident learners, responsible leaders and compassionate individuals through strong academics, meaningful opportunities and values that last a lifetime.</p>
     </div>
     <div>
       <h4>Quick Links</h4>
-      <a href="about.html">About</a>
+      <a href="about.html">About SLS</a>
       <a href="academics.html">Academics</a>
-      <a href="life-at-sls.html">Life at SLS</a>
+      <a href="life-at-sls.html">Student Life</a>
+      <a href="leadership.html">Student Leadership</a>
+      <a href="achievers.html">Achievers</a>
+      <a href="about.html#silver-jubilee">SLS @ 25</a>
       <a href="admissions.html">Admissions</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h4>Admissions</h4>
+      <a href="admissions.html">Admissions 2026–27</a>
+      <a href="admissions.html#admissionForm">Admission Enquiry</a>
+      <a href="contact.html">Schedule a Campus Visit</a>
+      <a href="tel:+919848638999">Speak to Admissions</a>
+      <a href="admissions.html">Fee Information</a>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="life-at-sls.html#houses">Four Houses</a>
+      <a href="academics.html#iit-foundation">IIT Foundation</a>
+      <a href="life-at-sls.html#sports">Arena</a>
+      <a href="life-at-sls.html#competitions">SCIQUEST</a>
+      <a href="gallery.html">Stories &amp; Events</a>
+      <a href="gallery.html">Gallery</a>
     </div>
     <div>
       <h4>Contact</h4>
-      <a href="contact.html">Enquire Now</a>
-      <a href="tel:+919848638999">Call the School Office</a>
+      <p style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0 0 8px;">Hanuman Nagar, Near Eenadu Office, Suryapet, Telangana</p>
+      <a href="tel:+919848638999">Phone: 9848638999</a>
+      <a href="mailto:info@slsscholarsschool.com">info@slsscholarsschool.com</a>
+      <a href="tel:+919848638999">WhatsApp</a>
+      <a href="https://www.google.com/maps/search/?api=1&query=SLS+Scholars+School+Hanuman+Nagar+Near+Eenadu+Office+Suryapet" target="_blank" rel="noopener">Directions</a>
       <a href="privacy.html">Privacy Policy</a>
     </div>
   </div>
-  <div class="footer-bottom">© 2026 SLS Scholars School, Suryapet — operated by Sri Laxmi Sai Education Society. All rights reserved.</div>
+  <div class="footer-bottom" style="text-align:center;">
+    <div style="margin-bottom:10px;">SLS SCHOLARS SCHOOL · Established 2001 · Celebrating 25 Years<br>Learning · Leadership · Legacy</div>
+    © 2026 SLS Scholars School, Suryapet — operated by Sri Laxmi Sai Education Society. All rights reserved.
+  </div>
 </footer>
 
 <div class="mobile-cta-bar">

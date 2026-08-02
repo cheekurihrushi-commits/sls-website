@@ -3,12 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stories & Moments | SLS Scholars School</title>
+<title>Stories From SLS | SLS Scholars School</title>
 <meta name="description" content="Student Elections, Cabinet Installation, Arena, SCIQUEST and more — real stories from SLS Scholars School.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="utility-strip">
+  <a href="tel:+919848638999">📞 9848638999</a>
+  <span class="sep">|</span>
+  <a href="tel:+919848638999">💬 WhatsApp</a>
+  <span class="sep">|</span>
+  <a href="https://www.google.com/maps/search/?api=1&query=SLS+Scholars+School+Hanuman+Nagar+Near+Eenadu+Office+Suryapet" target="_blank" rel="noopener">📍 Directions</a>
+  <span class="sep">|</span>
+  <span class="admissions-tag">Admissions Open 2026–27</span>
+</div>
 <div class="house-stripe"><span class="s1"></span><span class="s2"></span><span class="s3"></span><span class="s4"></span></div>
 <header class="site-header">
   <div class="nav-wrap">
@@ -19,33 +28,125 @@
         <div class="school-tag">25 Years of Learning. Leadership. Legacy.</div>
       </div>
     </a>
+    <button class="hamburger-btn" onclick="document.querySelector('.main-nav').classList.add('open')" aria-label="Open menu">☰</button>
     <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="academics.html">Academics</a>
-      <a href="life-at-sls.html">Life at SLS</a>
-      <a href="leadership.html">Leadership</a>
-      <a href="achievers.html">Achievers</a>
-      <a href="admissions.html">Admissions</a>
-      <a href="gallery.html" class="active">Stories</a>
-      <a href="contact.html">Contact</a>
+      <button class="nav-close-btn" onclick="document.querySelector('.main-nav').classList.remove('open')" aria-label="Close menu">✕</button>
+      <a href="index.html" class="no-caret">Home</a>
+      <div class="nav-item">
+        <a href="about.html">About</a>
+        <div class="nav-dropdown">
+          <a href="about.html#our-story">Our Story</a>
+          <a href="about.html#founder">Founder</a>
+          <a href="about.html#principal-message">Principal's Message</a>
+          <a href="about.html#vision-mission">Vision &amp; Mission</a>
+          <a href="about.html#four-houses">Four Houses</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="academics.html">Academics</a>
+        <div class="nav-dropdown">
+          <a href="academics.html#academic-journey">Academic Journey</a>
+          <a href="academics.html#early-years">Early Years</a>
+          <a href="academics.html#primary">Primary</a>
+          <a href="academics.html#middle-school">Middle School</a>
+          <a href="academics.html#secondary">Secondary</a>
+          <a href="academics.html#iit-foundation">IIT Foundation</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="life-at-sls.html" class="active">Student Life</a>
+        <div class="nav-dropdown">
+          <a href="life-at-sls.html">Life at SLS</a>
+          <a href="leadership.html">Student Leadership</a>
+          <a href="life-at-sls.html#houses">Houses</a>
+          <a href="life-at-sls.html#sports">Sports</a>
+          <a href="life-at-sls.html#clubs">Clubs</a>
+          <a href="life-at-sls.html#competitions">Competitions</a>
+          <a href="gallery.html">Stories &amp; Events</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="achievers.html">Achievers</a>
+        <div class="nav-dropdown">
+          <a href="achievers.html#academic-achievers">Academic Achievers</a>
+          <a href="achievers.html#student-achievements">Student Achievements</a>
+          <a href="about.html#silver-jubilee">SLS @ 25</a>
+        </div>
+      </div>
+      <a href="admissions.html" class="no-caret">Admissions</a>
+      <a href="contact.html" class="no-caret">Contact</a>
+      <a href="admissions.html#admissionForm" class="enquire-btn-nav no-caret">Enquire Now</a>
     </nav>
   </div>
 </header>
 
 <div class="page-hero">
-  <h1>SLS in Moments</h1>
-  <p>Because some stories are better seen than told.</p>
+  <h1>Stories From SLS</h1>
+  <p style="max-width:600px;">There's always something happening here. A school year is made of more than classes and examinations — it is made of competitions, celebrations, discoveries, victories, responsibilities, friendships and moments students carry with them long after the year ends.</p>
 </div>
 
-<section>
+<section style="background:#fff; border-bottom:1px solid var(--line);">
   <div class="wrap">
+    <span class="eyebrow" style="text-align:center; display:block;">Latest at SLS</span>
+    <h2 style="text-align:center; margin-bottom:28px;">What's Happening Now</h2>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3 style="color:var(--orange); font-family:'Fraunces',serif; font-style:italic; font-size:0.95rem; margin-bottom:2px;">Student Elections 2026</h3>
+        <h3 style="margin-bottom:8px;">Young Voices. Real Choices.</h3>
+        <p style="color:var(--muted); font-size:0.9rem;">Students stepped forward, shared their ideas and participated in the democratic process as SLS conducted its student elections through a digital voting system. From campaigning to casting votes, the experience gave students an opportunity to understand participation, choice and responsibility.</p>
+        <a href="leadership.html" style="font-weight:700; font-size:0.85rem;">Read the Story →</a>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--orange); font-family:'Fraunces',serif; font-style:italic; font-size:0.95rem; margin-bottom:2px;">Cabinet Installation 2026</h3>
+        <h3 style="margin-bottom:8px;">From Election to Responsibility.</h3>
+        <p style="color:var(--muted); font-size:0.9rem;">Our newly elected student leaders formally accepted their roles during the Student Cabinet Installation Ceremony. With badges came responsibility. With the oath came a promise to lead through discipline, teamwork and service.</p>
+        <a href="leadership.html" style="font-weight:700; font-size:0.85rem;">View Highlights →</a>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--orange); font-family:'Fraunces',serif; font-style:italic; font-size:0.95rem; margin-bottom:2px;">Arena</h3>
+        <h3 style="margin-bottom:8px;">Three Days. Four Houses. One Spirit.</h3>
+        <p style="color:var(--muted); font-size:0.9rem;">Competition. Determination. Teamwork. House pride. Arena brings the SLS family together through sport and celebrates not only those who finish first, but every student who steps forward to compete.</p>
+        <a href="life-at-sls.html#sports" style="font-weight:700; font-size:0.85rem;">Experience Arena →</a>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--orange); font-family:'Fraunces',serif; font-style:italic; font-size:0.95rem; margin-bottom:2px;">SCIQUEST</h3>
+        <h3 style="margin-bottom:8px;">Curiosity on Display.</h3>
+        <p style="color:var(--muted); font-size:0.9rem;">Questions became ideas. Ideas became experiments. And experiments became discoveries. SCIQUEST gives our young scholars an opportunity to explore science through models, demonstrations and creative thinking.</p>
+        <a href="life-at-sls.html#competitions" style="font-weight:700; font-size:0.85rem;">Explore SCIQUEST →</a>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--orange); font-family:'Fraunces',serif; font-style:italic; font-size:0.95rem; margin-bottom:2px;">Spell Bee</h3>
+        <h3 style="margin-bottom:8px;">Think. Spell. Shine.</h3>
+        <p style="color:var(--muted); font-size:0.9rem;">Words challenge the mind. Confidence brings them to life. Our Spell Bee encourages students to strengthen vocabulary, language ability, preparation and confidence through friendly competition.</p>
+        <a href="life-at-sls.html#competitions" style="font-weight:700; font-size:0.85rem;">View the Story →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap-narrow" style="text-align:center;">
+    <span class="eyebrow">Explore by Category</span>
+    <div style="margin:16px 0;">
+      <span class="stat-pill">Academics</span><span class="stat-pill">Student Leadership</span><span class="stat-pill">Sports</span>
+      <span class="stat-pill">Science &amp; Innovation</span><span class="stat-pill">Competitions</span><span class="stat-pill">Arts &amp; Culture</span>
+      <span class="stat-pill">Celebrations</span><span class="stat-pill">Clubs</span><span class="stat-pill">Community</span><span class="stat-pill">Silver Jubilee</span>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff; border-top:1px solid var(--line);">
+  <div class="wrap">
+    <span class="eyebrow" style="text-align:center; display:block;">Every Event Has a Story</span>
+    <h2 style="text-align:center;">We Don't Want Our Events to Disappear After One Instagram Post.</h2>
+    <p style="text-align:center; color:var(--muted); max-width:560px; margin:0 auto 32px;">Every important SLS event becomes part of our school's continuing story. Photographs capture the moment. Stories preserve the meaning.</p>
     <p style="text-align:center; color:var(--muted); max-width:620px; margin:0 auto 32px; font-size:0.9rem;">
-      These are placeholders for your real event photos and videos — swap them in whenever ready. Pick your best 6–20 photos per story rather than uploading everything; quality over quantity.
+      The cards below are placeholders for your real event photos and videos — swap them in whenever ready. Pick your best 6–20 photos per story rather than uploading everything; quality over quantity.
     </p>
     <div class="grid grid-3">
 
       <div class="story-card">
+
         <div class="story-photo" style="background:#2F6FE815;">🗳️</div>
         <div class="story-body">
           <h3 style="font-size:1rem; margin-bottom:2px;">Student Elections 2026</h3>
@@ -130,6 +231,30 @@
   </div>
 </section>
 
+<section style="background:var(--navy); color:#fff; text-align:center;">
+  <div class="wrap-narrow">
+    <span class="eyebrow" style="color:#F5A25D;">SLS in Motion</span>
+    <h2 style="color:#fff;">Watch. Experience. Remember.</h2>
+    <p style="color:rgba(255,255,255,0.85);">Discover SLS through highlights from classrooms, competitions, sporting events, celebrations and student activities.</p>
+    <div class="video-placeholder" style="max-width:600px; margin:16px auto 20px;">
+      <div class="play-icon">▶</div>
+      <div style="font-family:'Fraunces',serif; font-weight:600;">SLS in Motion — Video Highlights</div>
+    </div>
+    <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+      <a href="#" class="btn btn-primary">Watch Our Videos →</a>
+      <a href="#" class="btn btn-outline" style="border-color:#fff; color:#fff;">Follow Our Journey →</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap-narrow" style="text-align:center;">
+    <h2>The Next Story Could Be Yours.</h2>
+    <p style="color:var(--muted);">Every academic year brings new students, new leaders, new achievements, new friendships, new memories — and new stories waiting to be written.</p>
+    <p style="font-weight:700; color:var(--navy);">SLS Scholars School · 25 Years of Learning · Leadership · Legacy</p>
+  </div>
+</section>
+
 <footer class="site-footer">
   <div class="footer-wrap">
     <div>
@@ -137,23 +262,50 @@
         <img src="images/crest.png" alt="crest" style="width:38px;height:38px;">
         <div class="brand-text"><div class="school-name" style="color:#fff;">SLS Scholars School</div></div>
       </div>
-      <p style="color:rgba(255,255,255,0.7); font-size:0.9rem; max-width:320px;">Suryapet, Telangana. 25 years of Learning, Leadership &amp; Legacy — Nursery through Class X, with IIT Foundation for senior grades.</p>
+      <p style="color:rgba(255,255,255,0.7); font-size:0.88rem; max-width:280px;">Celebrating 25 Years of Learning, Leadership &amp; Legacy. Since 2001, SLS Scholars School has been nurturing confident learners, responsible leaders and compassionate individuals through strong academics, meaningful opportunities and values that last a lifetime.</p>
     </div>
     <div>
       <h4>Quick Links</h4>
-      <a href="about.html">About</a>
+      <a href="about.html">About SLS</a>
       <a href="academics.html">Academics</a>
-      <a href="life-at-sls.html">Life at SLS</a>
+      <a href="life-at-sls.html">Student Life</a>
+      <a href="leadership.html">Student Leadership</a>
+      <a href="achievers.html">Achievers</a>
+      <a href="about.html#silver-jubilee">SLS @ 25</a>
       <a href="admissions.html">Admissions</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h4>Admissions</h4>
+      <a href="admissions.html">Admissions 2026–27</a>
+      <a href="admissions.html#admissionForm">Admission Enquiry</a>
+      <a href="contact.html">Schedule a Campus Visit</a>
+      <a href="tel:+919848638999">Speak to Admissions</a>
+      <a href="admissions.html">Fee Information</a>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="life-at-sls.html#houses">Four Houses</a>
+      <a href="academics.html#iit-foundation">IIT Foundation</a>
+      <a href="life-at-sls.html#sports">Arena</a>
+      <a href="life-at-sls.html#competitions">SCIQUEST</a>
+      <a href="gallery.html">Stories &amp; Events</a>
+      <a href="gallery.html">Gallery</a>
     </div>
     <div>
       <h4>Contact</h4>
-      <a href="contact.html">Enquire Now</a>
-      <a href="tel:+919848638999">Call the School Office</a>
+      <p style="color:rgba(255,255,255,0.7); font-size:0.85rem; margin:0 0 8px;">Hanuman Nagar, Near Eenadu Office, Suryapet, Telangana</p>
+      <a href="tel:+919848638999">Phone: 9848638999</a>
+      <a href="mailto:info@slsscholarsschool.com">info@slsscholarsschool.com</a>
+      <a href="tel:+919848638999">WhatsApp</a>
+      <a href="https://www.google.com/maps/search/?api=1&query=SLS+Scholars+School+Hanuman+Nagar+Near+Eenadu+Office+Suryapet" target="_blank" rel="noopener">Directions</a>
       <a href="privacy.html">Privacy Policy</a>
     </div>
   </div>
-  <div class="footer-bottom">© 2026 SLS Scholars School, Suryapet — operated by Sri Laxmi Sai Education Society. All rights reserved.</div>
+  <div class="footer-bottom" style="text-align:center;">
+    <div style="margin-bottom:10px;">SLS SCHOLARS SCHOOL · Established 2001 · Celebrating 25 Years<br>Learning · Leadership · Legacy</div>
+    © 2026 SLS Scholars School, Suryapet — operated by Sri Laxmi Sai Education Society. All rights reserved.
+  </div>
 </footer>
 
 <div class="mobile-cta-bar">
