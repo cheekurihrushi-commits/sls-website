@@ -383,11 +383,11 @@ table.fee-table tr:nth-child(even) td { background: #FBFAF7; }
 @media (max-width: 960px) {
   .utility-strip { display: none; }
   .hamburger-btn { display: block; }
-  .main-nav {
+  nav.main-nav {
     display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #fff;
     flex-direction: column; flex-wrap: nowrap; padding: 90px 28px 28px; overflow-y: auto; z-index: 90; gap: 4px;
   }
-  .main-nav.open { display: flex; }
+  nav.main-nav.open { display: flex; }
   .main-nav > a, .main-nav > .nav-item { width: 100%; }
   .nav-item > a::after { float: right; }
   .nav-dropdown { display: block; position: static; box-shadow: none; border: none; padding-left: 14px; margin-bottom: 6px; }
